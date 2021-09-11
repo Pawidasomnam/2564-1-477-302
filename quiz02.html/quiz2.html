@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<h lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Quiz2 </title>
+
+    </head>
+
+    
+        <image src="image/japan.jpg" width="100%" height ="10%"></image>
+        <marquee style="background-color:darkblue" align="center" size="80" > คู่มือเที่ยวญี่ปุ่น (Japan Guide) ข้อมูลการท่องเที่ยวญี่ปุ่นด้วยตัวเอง แนะนำเกี่ยวกับประเทศญี่ปุ่น เมืองน่าเที่ยวในภูมิภาคต่างๆ และรีวิวสถานที่ท่องเที่ยวในประเทศญี่ปุ่นที่ห้ามพลาด ตลอดจนฤดูกาลและสภาพอากาศ วิธีการเดินทางและโรงแรมที่พัก สำหรับการวางแผนท่องเที่ยว</marquee>
+    
+        <button onclick="window.dialog.showModal();">Show Notification</button>
+
+        <dialog id="dialog">
+          <form method="dialog">
+            <h2>cookie policy</h2>
+            <p>Your privacy By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.</p>
+            <menu>
+              <button>accept</button>
+              <button>recant</button>
+            </menu>
+          </form>
+        </dialog>
+
+
+        <br>
+        <br>
+        <ul class="navigation menu">
+            <li><a href=""> HOME </a></li>
+            <br>
+            <li><a href=""> JAPAN BLOG </a></li>
+            <br>
+            <li><a href=""> JAPAN TOUR </a></li>
+            <br>
+            <li><a href=""> CONTACT US </a></li>
+            <br>
+            
+        </ul>
+
+        
+            <h2>log in</h2>
+            <head>
+
+
+               <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+                
+                </head>
+                <body>
+                <p></p>
+            
+            
+               
+                username<br><input class='registerinput' id='registerusername' placeholder='Username'></input><br>
+                password<br><input class='registerinput' id='registerpassword' placeholder='Password' type='password'></input>
+                <input class='registerinput' id='registerpasswordrepeat' placeholder='Repeat Password' type='password'></input><br>
+
+
+               alert('The password did not match.') } 
+
+                </body>
+                <script type="text/javascript">
+                $(document).ready(function(){
+                    
+                    // validate support storage
+                    if(typeof(Storage) == "undefined") {    
+                        alert("Not storage support");
+                    }
+                    
+                    // button click
+                    $("#btnNext").click(function(){
+                        
+                        // set storage
+                        localStorage.setItem("username", $("registerusername").val());
+                        localStorage.setItem("password", $("registerpassword").val());
+                        
+                        window.location="page2.html";
+                    });
+                });
+                </script>
+            
+           
+            
+            
+            
+            
+        </body>
+        <br>
+        
+        <div class="container" position="right">
+            <br>
+            <center><h1> 5 จุดเช็คอิน ญี่ปุ่น เมืองเก่า ถ่ายรูปสวย สวยทุกฤดู</h1>
+            <div class="right">
+                <P>
+                <br>
+                <img src="image/japan1.jpg" alt="EasyJung" style="width: 40%;">
+                <br>
+                <p>
+                <h2>Shirakawago ชิราคาว่าโกะ</h2>
+                <br>เริ่มต้นหมู่บ้านโบราณแรก ที่เที่ยวสวย ญี่ปุ่น ดีกรีมรดกโลก อย่างหมู่บ้าน Shirakawago นั่นเองครับ คงไม่ต้องบอกเรื่องความสวยงาม และความขลังของสถานที่แห่งนี้ เพราะมันสวยมาก ที่สำคัญคือเที่ยวได้ทั้งปี แถมแต่ละฤดูก็ได้วิวที่ต่างกันไป ยิ่งถ้าหากได้ไปในช่วงฤดูหนาว จะได้เห็นหิมะ สีขาวทั่วทั้งหมู่บ้านเลย
+                <br><div class = "content_left">
+                    <iframe src="https://goo.gl/maps/wt8ReAuJFdBQts8VA"width="180" height="180" style="border:0;" allowfullscreen="" loading=""></iframe>
+                </div>
+            </p>
+
+                <br>
+                <img src="image/japan3.jpg" alt="EasyJung" style="width:40%;">
+                <br>
+                <p>
+                <h2>Takayama ทาคายาม่า</h2>
+                <br>เมืองฝาแฝดเกียวโต ประจำจังหวัดกิฟุ อย่างหมู่บ้าน Takayama ก็สวยจนไปกี่ครั้งไม่เคยเบื่อ รวไมปถึงถ้าให้ชื่นชอบบ้านไม้เก่าๆ สไตล์ญี่ปุ่นด้วยล่ะก็ หูยยยย จะต้องหลงรักที่นี่อย่างแน่นอน แม้จะเป็นทางผ่านที่ไปหมู่บ้านชิราคาว่าโกะ แต่ก็น่าสนใจไม่น้อย
+                <br><div class = "content_left">
+                    <iframe src="https://goo.gl/maps/ZZuuTakHZwndBmz97"width="180" height="180" style="border:0;" allowfullscreen="" loading=""></iframe>
+                </div>
+                </p>
+
+                <br>
+                <img src="image/japan4.jpg" alt="EasyJung" style="width:40%;">
+                <br>
+                <p>
+                <h2>Kyoto เกียวโต</h2>
+                <br>มาดูเมืองเก่า ญี่ปุ่น ต้นฉบับกันบ้าง กับเมืองเกียวโต คงไม่ต้องบอก ก็น่าจะรู้กันดีว่าที่นี่เคยเป็นอดีตเมืองหลวงเก่าของประเทศนี้ มีวัด และศาลเจ้าเยอะแยะมากมาย ให้เหล่านักท่องเที่ยวเข้ามากราบไหว้ รวมไปถึงบ้านไม้สไตล์ญี่ปุ่น ที่ยังมีให้เห็นเยอะในเมืองนี้ 
+                <br><div class = "content_left">
+                    <iframe src="https://goo.gl/maps/vyn5FWoxPYtkw6u17"width="180" height="180" style="border:0;" allowfullscreen="" loading=""></iframe>
+                </div>
+ 
+                </p>
+                <br>
+                <img src="image/japan5.jpg" alt="EasyJung" style="width:40%;">
+                <br>
+                <p>
+                <h2>Nara นารา</h2>
+                <br>เมืองนารา ดีกรีเมืองมรดกโลกอีกเช่นกัน จุดเด่นของเมืองนี้คือเจ้าฝูงกวางน้อย ที่รอต้อนรับนักท่องเที่ยว ยิ่่งถ้าให้ถืออาหารอยู่ในมือด้วยล่ะก็ หื้มมม โดนเจ้ากวางฟาดเรียบอย่างแน่นอน
+                <br><div class = "content_left">
+                    <iframe src="https://goo.gl/maps/XpmfwtRPtuCEpXQJ9"width="180" height="180" style="border:0;" allowfullscreen="" loading=""></iframe>
+                </div>
+                </p>
+
+                <br>
+                <img src="image/japan6.jpg" alt="EasyJung" style="width:40%;">
+                <br>
+                <p>
+                <h2>Yufuin ยุฟุอิน </h2>
+                <br>เมืองเก่าที่ถูกผสมผสานอย่างลงตัวระหว่างญี่ปุ่น และยุโรป อย่างเมืองยุฟุอิน แน่นอนว่ามาเดินเล่นชิลล์ๆ เมืองนี้ทั้งที ก็ต้องลงแช่ออนเซ็นสักหน่อย เพราะเนื่องจากมันโด่งดังมากๆ รวมไปถึงวิวภูเขายูฟุ ที่สูงสง่ากลางเมือง
+                <br><center class = "content_left">
+                    <iframe src="https://goo.gl/maps/MeGW5HgunCJMnwqd7"width="180" height="180" style="border:0;" allowfullscreen="" loading=""></iframe></center>
+                </div>
+               </p>
+        
+        
+        
+        
+        
+   
+    
+    </head>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+     
+     
+     
+     
+       
+</form> 
+
+    
+
+
+
+
+
+
+
+
+
+
+
